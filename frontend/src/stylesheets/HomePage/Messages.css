@@ -1,0 +1,90 @@
+/*Message Items*/
+.message-item {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    margin: 5px 20px ;
+    padding-bottom: 10px;
+}
+
+.container-message-item-profile-picture {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container-message-item-data {
+    margin-left: 10px;
+    background-color: var(--colorNotMyMessage);
+    padding: 7px 20px;
+    border-radius: 0px 10px 10px 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+    box-shadow: 1px 1px 4px rgba(255,255,255,0.1);
+}
+
+.message-item-profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.container-message-item-name-date {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 3px;
+}
+
+.message-item-sender-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    flex: 1;
+}
+
+.message-item-time-text {
+    font-size: 0.55rem;
+    opacity: 0.6;
+    margin-left: 20px;
+}
+
+.message-item-content {
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+/* Sender Message Items */
+
+.sender-message-item {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    margin: 5px 20px ;
+    padding-bottom: 10px;
+}
+
+.sender-container-message-item-data {
+    margin-right: 10px;
+    background-color: var(--colorMyMessage);
+    padding: 7px 20px;
+    border-radius: 10px 0px 10px 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+    box-shadow: 1px 1px 4px rgba(255,255,255,0.1);
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 699px) {
+    .container-message-item-data {
+        max-width: 150px;
+    }
+    .message-item-time-text {
+        font-size: 0.4rem;
+        opacity: 0.6;
+        margin-left: 20px;
+    }
+    
+}
