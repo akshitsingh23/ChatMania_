@@ -143,9 +143,5 @@ cd ..
 And then open your heroku URL to see the website running live :)
 
 
-#### Note :bangbang:
-* The heroku website link that I have provided for this project on the top may run slow when you open it for the first time. It is also possible that you may see an empty red snackbar. This is because of slow internet connection or timeout error. This error will go away on its own if you wait for 1-2 minutes or reload the web page
-
-* Sometimes you may see that the message sent is appearing twice in the chat! This may be possibly due to either slow internet connection or slow server. However, to get rid of this error, you can simply refresh the page!
 
 
