@@ -140,7 +140,6 @@ npm start  - To run the server
 cd frontend/npm start - to run the application
 cd ..
 ```
-And then open your heroku URL to see the website running live :)
 
 
 
