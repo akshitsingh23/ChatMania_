@@ -87,7 +87,7 @@ export const LandingPage = () => {
                 Discover friends and people around you
               </span>
               <span className="landing-page-text-h2">
-                SpaceChat is the place where you can meet and chat with anyone
+                ChatMania is the place where you can meet and chat with anyone
                 in this world! Built using the power of NodeJs and Socket.io,
                 this app is completely free and open source!
               </span>
@@ -114,7 +114,7 @@ export const LandingPage = () => {
                   }}
                   className="landing-page-control-btn btn-view-source-code"
                 >
-                  <a href="https://github.com/akshitsingh23/ChatMania" style={{ textDecoration: "none", color: "white" }}>View Source Code</a>
+                  <a href="https://github.com/akshitsingh23/ChatMania_" style={{ textDecoration: "none", color: "white" }}>View Source Code</a>
                 </Button>
 
                 <AuthModalComponent
